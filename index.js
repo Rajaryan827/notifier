@@ -96,7 +96,7 @@ paymentsRef.on(
         `📅 **Timestamp**: ${new Date(paymentData.timestamp).toLocaleString()}\n\n` +
         `🔍 **Product Details**:\n` +
         `- *Last Update*: ${new Date().toLocaleString()}\n\n` +
-        `💬 *For more details, check the transaction on the [dashboard](https://www.a.official-store.in)!*`;
+        `💬 *For more details, check the transaction on the [dashboard](https://a.official-store.in)!*`;
 
       await sendTelegramNotification(message);
       console.log("Notification sent successfully!");
